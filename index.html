@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Default starter</title>
+    <title>Creativity project</title>
     <!-- normalize css -->
     <link rel="stylesheet" href="./css/normalize.css" />
     <!-- main css-->
@@ -15,121 +15,229 @@
     ></script>
   </head>
   <body>
-    <header>
-      <h1>Heading 1</h1>
-    </header>
-
-    <nav>
-      <ul>
-        <li><a href="#section1">Section 1</a></li>
-        <li><a href="#section2">Section 2</a></li>
-        <li><a href="#section3">Section 3</a></li>
-      </ul>
+    <nav class="navbar">
+      <div class="navbar-center">
+        <div class="logo">
+          <img
+            src="./images/ecomercado-logo.svg"
+            alt="Ecomercado-logo"
+            class="logo-img"
+          />
+          <h4>Ecomercado</h4>
+        </div>
+        <div class="left-text">
+          <h4 class="descriptive-text">Consumo sostenible</h4>
+        </div>
+      </div>
     </nav>
-    <a href="#">this is a link</a>
-
-    <main>
-      <section id="section1">
-        <h2>Heading 2</h2>
+    <div class="header-section">
+      <div class="section-center header-center">
+        <h1>¡No Más Desperdicio de Alimentos en Colombia!</h1>
+      </div>
+    </div>
+    <div class="img-banner-center">
+      <img src="./images/banner-img.png" class="img img-banner" alt="" />
+    </div>
+    <div class="section-center descriptive-banner">
+      <h2>
+        Descubre ofertas increíbles en productos perecederos cerca de ti y
+        ahorra dinero con Ecomercado App
+      </h2>
+    </div>
+    <div class="section-center problematic-center">
+      <div class="problem-info">
+        <h3>El Desperdicio de Alimentos Nos Afecta a Todos</h3>
         <p>
-          This is a paragraph under heading 2. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit.
+          Cada año en Colombia, se desperdician aproximadamente 9.7 millones de
+          toneladas de alimentos, lo que representa el 34% de la oferta
+          nacional. Una de las principales causas es la falta de información en
+          tiempo real sobre la disponibilidad de productos perecederos en los
+          comercios cercanos. Los consumidores terminan pagando más y los
+          alimentos se pierden, contribuyendo al desperdicio y al daño
+          ambiental.
         </p>
-
-        <h3>Heading 3</h3>
-        <p>
-          This is a paragraph under heading 3. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit.
-        </p>
-
-        <h4>Heading 4</h4>
-        <p>
-          This is a paragraph under heading 4. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit.
-        </p>
-
-        <h5>Heading 5</h5>
-        <p>
-          This is a paragraph under heading 5. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit.
-        </p>
-
-        <h6>Heading 6</h6>
-        <p>
-          This is a paragraph under heading 6. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit.
-        </p>
-
-        <blockquote>
+      </div>
+      <div class="problem-image">
+        <img src="./images/wasting vertical.webp" class="img vertical" alt="" />
+      </div>
+    </div>
+    <div class="section-center solution-center">
+      <h1>presentamos Ecomercado App</h1>
+      <img src="./images/ecomercado-logo.svg" class="logo-img" alt="" />
+      <p>
+        Ecomercado App es la solución innovadora para combatir el desperdicio de
+        alimentos. Con nuestra aplicación, tanto consumidores como productores y
+        distribuidores pueden colaborar para reducir el desperdicio y ahorrar
+        dinero. Aquí te explicamos cómo funciona:
+      </p>
+    </div>
+    <div class="section-center features-center">
+      <h1>Características de Ecomercado App</h1>
+      <div class="app-features-center">
+        <!-- start of article -->
+        <article class="container">
+          <div class="icon">
+            <i class="fa-solid fa-pen"></i>
+          </div>
+          <div class="feature-title">
+            <h4>registro de productos</h4>
+            <div class="title-underline"></div>
+          </div>
           <p>
-            This is a blockquote example. It is used to highlight a quote or
-            excerpt from another source.
+            Los tenderos pueden registrar sus productos con cantidad, estado y
+            precio, además de marcar aquellos próximos a vencer y ofrecer
+            descuentos.
           </p>
-        </blockquote>
-
-        <pre><code>preformatted text block
-with line breaks and spacing</code></pre>
-
-        <ul>
-          <li>Unordered List Item 1</li>
-          <li>Unordered List Item 2</li>
-          <li>Unordered List Item 3</li>
-        </ul>
-
-        <ol>
-          <li>Ordered List Item 1</li>
-          <li>Ordered List Item 2</li>
-          <li>Ordered List Item 3</li>
-        </ol>
-      </section>
-
-      <section id="section2">
-        <h2>Forms</h2>
-        <form action="" class="form">
-          <h4>contact form</h4>
-          <div class="form-row">
-            <label for="name" class="form-label">Name</label>
-            <input
-              type="text"
-              placeholder="hello there"
-              id="name"
-              class="form-input"
+        </article>
+        <!-- end of article -->
+        <!-- start of article -->
+        <article class="container">
+          <div class="icon">
+            <i class="fa-solid fa-clock"></i>
+          </div>
+          <div class="feature-title">
+            <h4>Ofertas en Tiempo Real</h4>
+            <div class="title-underline"></div>
+          </div>
+          <p>
+            Los consumidores pueden ver las ofertas en su vecindario en tiempo
+            real, incluyendo productos con descuentos por estar próximos a
+            vencer.
+          </p>
+        </article>
+        <!-- end of article -->
+        <!-- start of article -->
+        <article class="container">
+          <div class="icon">
+            <i class="fa-solid fa-face-smile"></i>
+          </div>
+          <div class="feature-title">
+            <h4>Interfaz fácil de usar</h4>
+            <div class="title-underline"></div>
+          </div>
+          <p>
+            Diseñada para ser fácil de usar, permite a los usuarios buscar
+            productos específicos, explorar ofertas cercanas y filtrar
+            resultados según sus preferencias.
+          </p>
+        </article>
+        <!-- end of article -->
+        <!-- start of article -->
+        <article class="container">
+          <div class="icon">
+            <i class="fa-solid fa-bell"></i>
+          </div>
+          <div class="feature-title">
+            <h4>Alertas Personalizadas</h4>
+            <div class="title-underline"></div>
+          </div>
+          <p>
+            Recibe alertas personalizadas sobre las ofertas que te interesan,
+            ahorra dinero aprovechando promociones y contribuye a reducir el
+            desperdicio de alimentos.
+          </p>
+        </article>
+        <!-- end of article -->
+      </div>
+    </div>
+    <div class="section-center benefits-center">
+      <h1>Beneficios de Ecomercado App</h1>
+      <h3>Ahorra Dinero y Ayuda al Medio Ambiente</h3>
+      <div class="app-benefits-center">
+        <!-- start of benefit -->
+        <article class="benefit-container">
+          <div class="benefits-icon">
+            <i class="fa-solid fa-store"></i>
+          </div>
+          <div class="benefit-information">
+            <h5>para los tenderos</h5>
+            <p>
+              Mejor gestión del inventario y reducción de pérdidas por productos
+              no vendidos.
+            </p>
+          </div>
+        </article>
+        <!-- end of benefit -->
+        <!-- start of benefit -->
+        <article class="benefit-container">
+          <div class="benefits-icon">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="benefit-information">
+            <h5>Para los Consumidores</h5>
+            <p>
+              productos de calidad a precios reducidos, especialmente útil para
+              personas de bajos recursos
+            </p>
+          </div>
+        </article>
+        <!-- end of benefit -->
+        <!-- start of benefit -->
+        <article class="benefit-container">
+          <div class="benefits-icon">
+            <i class="fa-solid fa-leaf"></i>
+          </div>
+          <div class="benefit-information">
+            <h5>Para el Medio Ambiente</h5>
+            <p>
+              Menor desperdicio de alimentos y reducción del impacto ambiental.
+            </p>
+          </div>
+        </article>
+        <!-- end of benefit -->
+      </div>
+    </div>
+    <div class="section-center considerations">
+      <h1>Consideraciones Especiales</h1>
+      <h3>Una Herramienta Flexible para Todos</h3>
+      <div class="consideration-center">
+        <!-- start of consideration -->
+        <article class="consideration-container">
+          <div class="img-consideration-container">
+            <img
+              src="./images/joven tendero.webp"
+              class="img consideration-img"
+              alt=""
             />
           </div>
-          <div class="form-row">
-            <label for="number" class="form-label">Number</label>
-            <input type="tel" id="number" class="form-input" />
+          <h4>accesibilidad y adopción global</h4>
+          <p>
+            Ideal para tenderos jóvenes y consumidores que buscan optimizar sus
+            compras.
+          </p>
+        </article>
+        <!-- end of consideration -->
+        <!-- start of consideration -->
+        <article class="consideration-container">
+          <div class="img-consideration-container">
+            <img
+              src="./images/Tienda pequeña.webp"
+              class="img consideration-img"
+              alt=""
+            />
           </div>
-          <div class="form-row">
-            <label for="email" class="form-label">Email</label>
-            <input type="email" id="email" class="form-input" />
-            <small class="form-alert">please provide value</small>
-          </div>
-          <div class="form-row">
-            <label for="textarea" class="form-label">Text area</label>
-            <textarea class="form-textarea">default value</textarea>
-          </div>
-          <button type="submit" class="btn btn-block">submit</button>
-        </form>
-      </section>
-    </main>
-    <button class="btn" type="button">regular button</button>
-    <button class="btn btn-hipster" type="button">hipster button</button>
-
-    <div class="alert alert-danger">hello from danger</div>
-    <div class="alert alert-success">hello from success</div>
-
-    <div class="loading"></div>
-    <br />
-    <br />
-    <div class="title">
-      <h2 class="section-title">section title</h2>
-      <div class="title-underline"></div>
+          <h4>Simplicidad para Pequeñas Tiendas</h4>
+          <p>
+            Gestión manual para inventarios pequeños, sistemas avanzados para
+            negocios grandes.
+          </p>
+        </article>
+        <!-- end of consideration -->
+        <!-- start of consideration -->
+        <article class="consideration-container">
+          <img
+            src="./images/centro de distribucion.webp"
+            class="img consideration-img"
+            alt=""
+          />
+          <h4>Flexibilidad para Grandes Cadenas</h4>
+          <p>
+            Beneficios para comercios de todos los tamaños, optimizando la
+            gestión de inventarios y reduciendo el desperdicio a gran escala.
+          </p>
+        </article>
+        <!-- end of consideration -->
+      </div>
     </div>
-
-    <footer>
-      <p>Footer Content</p>
-      <p>lets right this here</p>
-    </footer>
   </body>
 </html>
